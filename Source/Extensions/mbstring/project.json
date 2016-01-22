@@ -1,0 +1,14 @@
+{
+	"version": "1.0.0-*",
+	"description": "Phalanger MBString Extension",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP", "Phalanger", "PhpNet", "MBString", "MultiByte", "Multiple Byte", "Multi Byte", "String", "Text", "Extension" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"PhpNetClassLibrary": "1.0.0-*"
+	}
+}

@@ -1,0 +1,15 @@
+{
+	"version": "1.0.0-*",
+	"description": "Phalanger SQLite Extension",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP", "Phalanger", "PhpNet", "SQLite", "Database", "Extension" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"PhpNetClassLibrary": "1.0.0-*",
+		"System.Data.SQLite.Core": "1.0.99"
+	}
+}

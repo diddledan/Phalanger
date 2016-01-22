@@ -1,0 +1,15 @@
+{
+	"version": "1.0.0-*",
+	"description": "Phalanger ZIP Extension",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP", "Phalanger", "PhpNet", "Zip", "Extension" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"SharpZipLib": "0.86.0",
+		"PhpNetClassLibrary": "1.0.0-*"
+	}
+}

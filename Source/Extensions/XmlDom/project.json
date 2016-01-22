@@ -1,0 +1,16 @@
+{
+	"version": "1.0.0-*",
+	"description": "Phalanger XmlDom Extension",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP", "Phalanger", "PhpNet", "XML", "XmlDom", "Dom", "Extension" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"HtmlAgilityPack": "1.4.9",
+		"PhpNetCore": "1.0.0-*",
+		"PhpNetXml": "1.0.0-*"
+	}
+}

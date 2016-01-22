@@ -1,0 +1,62 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x86": {
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x64": {
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      }
+    }
+  },
+  "libraries": {
+    "PhpNetCore/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetCore/project.json"
+    },
+    "PhpNetCore.Parsers/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetCore.Parsers/project.json"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "PhpNetCore.Parsers >= 1.0.0-*",
+      "PhpNetCore >= 1.0.0-*"
+    ],
+    ".NETFramework,Version=v4.5.1": []
+  }
+}

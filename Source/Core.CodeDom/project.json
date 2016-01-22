@@ -1,0 +1,14 @@
+{
+	"version": "1.0.0-*",
+	"description": "Phalanger Core CodeDom Provider",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP", "Phalanger", "PhpNet" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"PhpNetCore": "1.0.0-*"
+	}
+}

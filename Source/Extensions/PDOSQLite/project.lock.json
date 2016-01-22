@@ -1,0 +1,182 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "PhpNetPDO/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetClassLibrary": "1.0.0",
+          "PhpNetCore": "1.0.0"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.99": {
+        "type": "package",
+        "compile": {
+          "lib/net451/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x86": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "PhpNetPDO/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetClassLibrary": "1.0.0",
+          "PhpNetCore": "1.0.0"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.99": {
+        "type": "package",
+        "compile": {
+          "lib/net451/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x64": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "PhpNetPDO/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetClassLibrary": "1.0.0",
+          "PhpNetCore": "1.0.0"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.99": {
+        "type": "package",
+        "compile": {
+          "lib/net451/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/net451/System.Data.SQLite.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhpNetClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetClassLibrary/project.json"
+    },
+    "PhpNetCore/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetCore/project.json"
+    },
+    "PhpNetCore.Parsers/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetCore.Parsers/project.json"
+    },
+    "PhpNetPDO/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetPDO/project.json"
+    },
+    "System.Data.SQLite.Core/1.0.99": {
+      "type": "package",
+      "sha512": "5KMHqnyeUADZNq0Zq0CEG0JvxwbixtjQ0w0s6zyH2lgxEgeE7xmB8bCLI3HRFfIL1726hQsqjRATN2wXYjaoyQ==",
+      "files": [
+        "build/net20/System.Data.SQLite.Core.targets",
+        "build/net20/x64/SQLite.Interop.dll",
+        "build/net20/x86/SQLite.Interop.dll",
+        "build/net40/System.Data.SQLite.Core.targets",
+        "build/net40/x64/SQLite.Interop.dll",
+        "build/net40/x86/SQLite.Interop.dll",
+        "build/net45/System.Data.SQLite.Core.targets",
+        "build/net45/x64/SQLite.Interop.dll",
+        "build/net45/x86/SQLite.Interop.dll",
+        "build/net451/System.Data.SQLite.Core.targets",
+        "build/net451/x64/SQLite.Interop.dll",
+        "build/net451/x86/SQLite.Interop.dll",
+        "build/net46/System.Data.SQLite.Core.targets",
+        "build/net46/x64/SQLite.Interop.dll",
+        "build/net46/x86/SQLite.Interop.dll",
+        "lib/net20/System.Data.SQLite.dll",
+        "lib/net20/System.Data.SQLite.xml",
+        "lib/net40/System.Data.SQLite.dll",
+        "lib/net40/System.Data.SQLite.xml",
+        "lib/net45/System.Data.SQLite.dll",
+        "lib/net45/System.Data.SQLite.xml",
+        "lib/net451/System.Data.SQLite.dll",
+        "lib/net451/System.Data.SQLite.xml",
+        "lib/net46/System.Data.SQLite.dll",
+        "lib/net46/System.Data.SQLite.xml",
+        "System.Data.SQLite.Core.1.0.99.nupkg",
+        "System.Data.SQLite.Core.1.0.99.nupkg.sha512",
+        "System.Data.SQLite.Core.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "PhpNetClassLibrary >= 1.0.0-*",
+      "PhpNetCore.Parsers >= 1.0.0-*",
+      "PhpNetCore >= 1.0.0-*",
+      "PhpNetPDO >= 1.0.0-*",
+      "System.Data.SQLite.Core >= 1.0.99"
+    ],
+    ".NETFramework,Version=v4.5.1": []
+  }
+}

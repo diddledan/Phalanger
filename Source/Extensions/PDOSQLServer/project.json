@@ -1,0 +1,15 @@
+{
+	"version": "1.0.0-*",
+	"description": "Phalanger PDO SQLServer Extension",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP", "Phalanger", "PhpNet", "PDO", "PHP Data Objects", "MSSQL", "SQLServer", "SQL", "Database", "Extension" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"PhpNetClassLibrary": "1.0.0-*",
+		"PhpNetPDO": "1.0.0-*"
+	}
+}

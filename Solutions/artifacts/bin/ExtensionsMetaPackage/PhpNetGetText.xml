@@ -1,0 +1,265 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>PhpNetGetText</name>
+    </assembly>
+    <members>
+        <member name="T:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager">
+            <summary>
+            Extendable file based resource manager.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.Path">
+            <summary>
+            Path to retrieve the files from.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.FileFormat">
+            <summary>
+            Format of the resource set po file based on {{culture}} and {{resource}} placeholders.
+            </summary>
+        </member>
+        <member name="T:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.ResourceSetCreationEventArgs">
+            <summary>
+            Arguments for events related to the creation, successful or not, of a resource set.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.ResourceSetCreationEventArgs.Exception">
+            <summary>
+            Exception in case of error, null on success.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.ResourceSetCreationEventArgs.FileName">
+            <summary>
+            FileName from where the resource set was loaded.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.ResourceSetCreationEventArgs.ResourceSetType">
+            <summary>
+            Type of the resource set being initialized.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.ResourceSetCreationEventArgs.ResourceSet">
+            <summary>
+            Instance of the resource set created, may be null on error.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.ResourceSetCreationEventArgs.Success">
+            <summary>
+            Whether the creation was successful.
+            </summary>
+        </member>
+        <member name="E:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.CreatedResourceSet">
+            <summary>
+            Event that notifies the successful creation of a resource set.
+            </summary>
+        </member>
+        <member name="E:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.FailedResourceSet">
+            <summary>
+            Event that notifies an error creating a resource set.
+            </summary>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextSharp.FileBasedResourceManager.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Creates a new instance.
+            </summary>
+            <param name="name">Name of the resource</param>
+            <param name="path">Path to retrieve the files from</param>
+            <param name="fileformat">Format of the file name using {{resource}} and {{culture}} placeholders.</param>
+        </member>
+        <member name="T:PHP.Library.GetText.PhpGetText">
+            <summary>
+            Implements PHP functions provided by gettext extension.
+            </summary>
+        </member>
+        <member name="M:PHP.Library.GetText.PhpGetText.bind_textdomain_codeset(System.String,System.String)">
+            <summary>
+            Specify the character encoding in which the messages from the DOMAIN message catalog will be returned.
+            </summary>
+            <param name="domain"></param>
+            <param name="codeset"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PHP.Library.GetText.PhpGetText.bindtextdomain(System.String,System.String)">
+            <summary>
+            Sets the path for a domain.
+            </summary>
+            <param name="domain"></param>
+            <param name="directory"></param>
+            <returns>The full pathname for the domain currently being set.</returns>
+        </member>
+        <member name="M:PHP.Library.GetText.PhpGetText.dcgettext(System.String,System.String,System.Int32)">
+            <summary>
+            Overrides the domain for a single lookup.
+            </summary>
+            <param name="domain"></param>
+            <param name="message"></param>
+            <param name="category"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PHP.Library.GetText.PhpGetText.dcngettext(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Plural version of dcgettext.
+            </summary>
+            <param name="domain"></param>
+            <param name="msgid1"></param>
+            <param name="msgid2"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PHP.Library.GetText.PhpGetText.dgettext(System.String,System.String)">
+            <summary>
+            Override the current domain for a single message lookup.
+            </summary>
+            <param name="domain"></param>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PHP.Library.GetText.PhpGetText.dngettext(System.String,System.String,System.String,System.Int32)">
+            <summary>
+            Plural version of dgettext.
+            </summary>
+            <param name="domain"></param>
+            <param name="msgid1"></param>
+            <param name="msgid2"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PHP.Library.GetText.PhpGetText.gettext(System.String)">
+            <summary>
+            Lookup a message in the current domain
+            </summary>
+            <param name="message"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PHP.Library.GetText.PhpGetText.ngettext(System.String,System.String,System.Int32)">
+            <summary>
+            Plural version of gettext
+            </summary>
+            <param name="msgid1"></param>
+            <param name="msgid2"></param>
+            <param name="n"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PHP.Library.GetText.PhpGetText.textdomain(System.String,System.String)">
+            <summary>
+            This function sets the domain to search within when calls are made to gettext(), usually the named after an application.
+            </summary>
+            <param name="domain"></param>
+            <param name="directory"></param>
+            <returns>The full pathname for the domain currently being set.</returns>
+        </member>
+        <member name="T:PHP.Library.GetText.GetTextLocalConfig">
+            <summary>
+            Script independent mbstring configuration.
+            </summary>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextLocalConfig.DeepCopy">
+            <summary>
+            Creates a deep copy of the configuration record.
+            </summary>
+            <returns>The copy.</returns>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextLocalConfig.Parse(System.String,System.String,System.Xml.XmlNode)">
+            <summary>
+            Loads configuration from XML.
+            </summary>
+        </member>
+        <member name="T:PHP.Library.GetText.GetTextGlobalConfig">
+            <summary>
+            Script dependent MSSQL configuration.
+            </summary>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextGlobalConfig.Parse(System.String,System.String,System.Xml.XmlNode)">
+            <summary>
+            Loads configuration from XML.
+            </summary>
+            <param name="name"></param>
+            <param name="value"></param>
+            <param name="node"></param>
+            <returns></returns>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextGlobalConfig.DeepCopy">
+            <summary>
+            Creates a deep copy of the configuration record.
+            </summary>
+            <returns>The copy.</returns>
+        </member>
+        <member name="T:PHP.Library.GetText.GetTextConfiguration">
+            <summary>
+            mbstring extension configuration.
+            </summary>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextConfiguration.GetSetRestore(PHP.Core.LocalConfiguration,System.String,System.Object,PHP.Library.IniAction)">
+            <summary>
+            Gets, sets, or restores a value of a legacy configuration option.
+            </summary>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextConfiguration.LegacyOptionsToXml(System.Xml.XmlTextWriter,System.Collections.Hashtable,System.Boolean)">
+            <summary>
+            Writes MySql legacy options and their values to XML text stream.
+            Skips options whose values are the same as default values of Phalanger.
+            </summary>
+            <param name="writer">XML writer.</param>
+            <param name="options">A hashtable containing PHP names and option values. Consumed options are removed from the table.</param>
+            <param name="writePhpNames">Whether to add "phpName" attribute to option nodes.</param>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextConfiguration.RegisterLegacyOptions">
+            <summary>
+            Registers legacy ini-options.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextConfiguration.Local">
+            <summary>
+            Gets the library configuration associated with the current script context.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextConfiguration.DefaultLocal">
+            <summary>
+            Gets the default library configuration.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextConfiguration.Global">
+            <summary>
+            Gets the global library configuration.
+            </summary>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextConfiguration.GetLocal(PHP.Core.ScriptContext)">
+            <summary>
+            Gets local configuration associated with a specified script context.
+            </summary>
+            <param name="context">Scritp context.</param>
+            <returns>Local library configuration.</returns>
+        </member>
+        <member name="T:PHP.Library.GetText.GetTextLibraryDescriptor">
+            <summary>
+            Describes the class library assembly content and configuration.
+            </summary>
+        </member>
+        <member name="P:PHP.Library.GetText.GetTextLibraryDescriptor.Singleton">
+            <summary>
+            Stores one and only instance of the class that is created when the assembly is loaded.
+            </summary>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextLibraryDescriptor.Loaded(PHP.Core.PhpLibraryAttribute,PHP.Core.LibraryConfigStore)">
+            <summary>
+            Called by the Core after the library is loaded.
+            </summary>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextLibraryDescriptor.ParseConfig(PHP.Core.ConfigContextBase,PHP.Core.PhpConfigurationContext,System.Xml.XmlNode)">
+            <summary>
+            Parses a configuration section belonging to the MySql library. 
+            </summary>
+            <param name="result">A configuration context.</param>
+            <param name="context">The context of the configuration created by Phalanger Core.</param>
+            <param name="section">A XML node containing the configuration or its part.</param>
+            <returns>Updated configuration context.</returns>
+        </member>
+        <member name="M:PHP.Library.GetText.GetTextLibraryDescriptor.CreateConfigContext">
+            <summary>
+            Creates empty library configuration context.
+            </summary>
+            <returns>An initialized configuration context. Should not be a <B>null</B> reference.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+{
+	"version": "1.0.0-*",
+	"description": "Phalanger GetText Extension",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP", "Phalanger", "PhpNet", "GetText", "Localization", "Internationalization", "Translation", "i18n", "l10n", "po", "mo", "Text", "Extension" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"PhpNetClassLibrary": "1.0.0-*"
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"version": "1.0.0-*",
+	"description": "Phalanger Core",
+	"authors": ["Phalanger Team"],
+	"tags": ["PHP", "Phalanger", "PhpNet"],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+	"frameworks": {
+		"net451": { }
+	}
+}

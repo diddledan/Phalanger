@@ -1,0 +1,29 @@
+﻿{
+	"version": "1.0.0-*",
+	"description": "Phalanger Extensions Meta-Package - depends on the every Phalanger-provided PhpNet extension.",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP Phalanger PhpNet" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"PhpNetCurl": "1.0.0-*",
+		"PhpNetGd2": "1.0.0-*",
+		"PhpNetGetText": "1.0.0-*",
+		"PhpNetIconv": "1.0.0-*",
+		"PhpNetMbstring": "1.0.0-*",
+		"PhpNetMsSql": "1.0.0-*",
+		"PhpNetPDO": "1.0.0-*",
+		"PhpNetPDOSQLite": "1.0.0-*",
+		"PhpNetPDOSQLServer": "1.0.0-*",
+		"PhpNetSoap": "1.0.0-*",
+		"PhpNetSQLite": "1.0.0-*",
+		"PhpNetXml": "1.0.0-*",
+		"PhpNetXmlDom": "1.0.0-*",
+		"PhpNetZip": "1.0.0-*",
+		"PhpNetZlib": "1.0.0-*"
+	}
+}

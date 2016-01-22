@@ -1,0 +1,15 @@
+{
+	"version": "1.0.0-*",
+	"description": "Phalanger iconv Extension",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP", "Phalanger", "PhpNet", "iconv", "text", "convert", "conversion", "string", "transliteration", "Extension" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"PhpNetClassLibrary": "1.0.0-*",
+		"PhpNetMbstring": "1.0.0-*"
+	}
+}

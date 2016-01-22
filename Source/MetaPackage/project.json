@@ -1,0 +1,19 @@
+﻿{
+	"version": "1.0.0-*",
+	"description": "Phalanger Core Meta-Package - depends on the core PhpNet packages.",
+	"authors": [ "Phalanger Team" ],
+	"tags": [ "PHP Phalanger PhpNet" ],
+	"projectUrl": "https://github.com/DEVSENSE/Phalanger",
+	"licenseUrl": "https://raw.githubusercontent.com/DEVSENSE/Phalanger/master/LICENSE.txt",
+
+	"frameworks": {
+		"net451": { }
+	},
+	"dependencies": {
+		"PhpNetClassLibrary": "1.0.0-*",
+		"PhpNetCore": "1.0.0-*",
+		"PhpNetCore.CodeDom": "1.0.0-*",
+		"PhpNetCore.DuckTyping": "1.0.0-*",
+		"PhpNetCore.Parsers": "1.0.0-*"
+	}
+}

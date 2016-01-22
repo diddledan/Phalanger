@@ -1,0 +1,132 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x86": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x64": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "SharpZipLib/0.86.0": {
+        "type": "package",
+        "compile": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        },
+        "runtime": {
+          "lib/20/ICSharpCode.SharpZipLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhpNetClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetClassLibrary/project.json"
+    },
+    "PhpNetCore/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetCore/project.json"
+    },
+    "PhpNetCore.Parsers/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetCore.Parsers/project.json"
+    },
+    "SharpZipLib/0.86.0": {
+      "type": "package",
+      "sha512": "5DbS1SlKLMi+WG00Cm0ueYf2oyXJrowETQk8nx96rmdjTuHsA3laPykGV7Sxi0R5Xxfx0Kh/EfacAZ1f6M7y/g==",
+      "files": [
+        "lib/11/ICSharpCode.SharpZipLib.dll",
+        "lib/20/ICSharpCode.SharpZipLib.dll",
+        "lib/SL3/SharpZipLib.Silverlight3.dll",
+        "lib/SL4/SharpZipLib.Silverlight4.dll",
+        "SharpZipLib.0.86.0.nupkg",
+        "SharpZipLib.0.86.0.nupkg.sha512",
+        "SharpZipLib.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "SharpZipLib >= 0.86.0",
+      "PhpNetClassLibrary >= 1.0.0-*",
+      "PhpNetCore.Parsers >= 1.0.0-*",
+      "PhpNetCore >= 1.0.0-*"
+    ],
+    ".NETFramework,Version=v4.5.1": []
+  }
+}

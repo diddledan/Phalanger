@@ -1,0 +1,149 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.CodeDom/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.DuckTyping/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x86": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.CodeDom/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.DuckTyping/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x64": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.CodeDom/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.DuckTyping/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      }
+    }
+  },
+  "libraries": {
+    "PhpNetClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../../../wrap/PhpNetClassLibrary/project.json"
+    },
+    "PhpNetCore/1.0.0": {
+      "type": "project",
+      "path": "../../../wrap/PhpNetCore/project.json"
+    },
+    "PhpNetCore.CodeDom/1.0.0": {
+      "type": "project",
+      "path": "../../../wrap/PhpNetCore.CodeDom/project.json"
+    },
+    "PhpNetCore.DuckTyping/1.0.0": {
+      "type": "project",
+      "path": "../../../wrap/PhpNetCore.DuckTyping/project.json"
+    },
+    "PhpNetCore.Parsers/1.0.0": {
+      "type": "project",
+      "path": "../../../wrap/PhpNetCore.Parsers/project.json"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "PhpNetClassLibrary >= 1.0.0-*",
+      "PhpNetCore >= 1.0.0-*",
+      "PhpNetCore.CodeDom >= 1.0.0-*",
+      "PhpNetCore.DuckTyping >= 1.0.0-*",
+      "PhpNetCore.Parsers >= 1.0.0-*"
+    ],
+    ".NETFramework,Version=v4.5.1": []
+  }
+}

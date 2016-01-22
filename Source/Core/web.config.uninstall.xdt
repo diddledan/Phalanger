@@ -5,9 +5,6 @@
 	</configSections>
 
 	<system.webServer>
-		<handlers>
-			<add name="PhalangerHandler" xdt:Transform="Remove" xdt:Locator="Match(name)" />
-		</handlers>
 		<defaultDocument>
 			<files>
 				<add value="index.php" xdt:Transform="Remove" xdt:Locator="Match(value)" />
@@ -15,9 +12,5 @@
 		</defaultDocument>
 	</system.webServer>
 
-	<phpNet>
-		<error-control>
-			<set name="HtmlMessages" xdt:Transform="Remove" xdt:Locator="Match(name)" />
-		</error-control>
-	</phpNet>
+	<phpNet xdt:Transform="Remove" />
 </configuration>

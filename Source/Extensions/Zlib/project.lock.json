@@ -1,0 +1,128 @@
+{
+  "locked": false,
+  "version": 2,
+  "targets": {
+    ".NETFramework,Version=v4.5.1": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "zlib.net/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/zlib.net.dll": {}
+        },
+        "runtime": {
+          "lib/zlib.net.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x86": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "zlib.net/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/zlib.net.dll": {}
+        },
+        "runtime": {
+          "lib/zlib.net.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.1/win7-x64": {
+      "PhpNetClassLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore": "1.0.0",
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1",
+        "dependencies": {
+          "PhpNetCore.Parsers": "1.0.0"
+        }
+      },
+      "PhpNetCore.Parsers/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.1"
+      },
+      "zlib.net/1.0.4": {
+        "type": "package",
+        "compile": {
+          "lib/zlib.net.dll": {}
+        },
+        "runtime": {
+          "lib/zlib.net.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PhpNetClassLibrary/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetClassLibrary/project.json"
+    },
+    "PhpNetCore/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetCore/project.json"
+    },
+    "PhpNetCore.Parsers/1.0.0": {
+      "type": "project",
+      "path": "../PhpNetCore.Parsers/project.json"
+    },
+    "zlib.net/1.0.4": {
+      "type": "package",
+      "sha512": "ywKkVY1y20tGQsUnYgKupYm91L8GVrVgoEOFTjfR1Bb5Xiy5tBJu5SV9liIiW2h8/KQUBefE45vSythtNMmahQ==",
+      "files": [
+        "lib/zlib.net.dll",
+        "zlib.net.1.0.4.nupkg",
+        "zlib.net.1.0.4.nupkg.sha512",
+        "zlib.net.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "": [
+      "PhpNetClassLibrary >= 1.0.0-*",
+      "PhpNetCore >= 1.0.0-*",
+      "zlib.net >= 1.0.4"
+    ],
+    ".NETFramework,Version=v4.5.1": []
+  }
+}

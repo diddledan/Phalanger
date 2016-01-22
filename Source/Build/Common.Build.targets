@@ -13,7 +13,7 @@
   
 
   <Target Name="RestorePackages">
-    <Exec Command="&quot;$(ToolsDir)nuget&quot; restore &quot;$(MSBuildThisFileDirectory)../../Solutions/Phalanger.sln&quot;"/>
+    <!--Exec Command="&quot;$(ToolsDir)nuget&quot; restore &quot;$(MSBuildThisFileDirectory)../../Solutions/Phalanger.sln&quot;"/-->
   </Target>
 
   <Target Name="BeforeBuild" DependsOnTargets="RestorePackages">
@@ -36,6 +36,6 @@
     <!--WebDownload Condition="!Exists('nuget.exe')" Filename="nuget.exe" FileUri="https://dist.nuget.org/win-x86-commandline/latest/nuget.exe" /-->
 
     <MakeDir Directories="$(OutputNugetPath)" />
-    <Exec Command="&quot;$(ToolsDir)nuget&quot; pack &quot;$(MSBuildProjectFullPath)&quot; -IncludeReferencedProjects -Symbols -Prop Configuration=Release -OutputDirectory &quot;$(OutputNugetPath)&quot;"></Exec>
+    <!--Exec Command="&quot;$(ToolsDir)nuget&quot; pack &quot;$(MSBuildProjectFullPath)&quot; -IncludeReferencedProjects -Symbols -Prop Configuration=Release -OutputDirectory &quot;$(OutputNugetPath)&quot;"></Exec-->
   </Target>
 </Project>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">14.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>6d808318-8246-46ad-8f9d-792432f17d77</ProjectGuid>
+    <RootNamespace>ExtensionsMetaPackage</RootNamespace>
+    <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\..\Solutions\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
+    <OutputPath Condition="'$(OutputPath)'=='' ">..\..\..\Solutions\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Curl\Extension.Curl.csproj" />
+    <ProjectReference Include="..\Gd2\Extension.Gd2.csproj" />
+    <ProjectReference Include="..\GetText\Extension.GetText.csproj" />
+    <ProjectReference Include="..\iconv\Extension.iconv.csproj" />
+    <ProjectReference Include="..\mbstring\Extension.mbstring.csproj" />
+    <ProjectReference Include="..\MSSql\Extension.MsSql.csproj" />
+    <ProjectReference Include="..\PDOSQLite\Extension.PDOSQLite.csproj" />
+    <ProjectReference Include="..\PDOSQLServer\Extension.PDOSQLServer.csproj" />
+    <ProjectReference Include="..\PDO\Extension.PDO.csproj" />
+    <ProjectReference Include="..\Soap\Extension.Soap.csproj" />
+    <ProjectReference Include="..\SQLite\Extension.SQLite.csproj" />
+    <ProjectReference Include="..\XmlDom\Extension.XmlDom.csproj" />
+    <ProjectReference Include="..\Xml\Extension.Xml.csproj" />
+    <ProjectReference Include="..\Zip\Extension.Zip.csproj" />
+    <ProjectReference Include="..\Zlib\Extension.Zlib.csproj" />
+  </ItemGroup>
+  <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.targets" Condition="'$(VSToolsPath)' != ''" />
+</Project>
